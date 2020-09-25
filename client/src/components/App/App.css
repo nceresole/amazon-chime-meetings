@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.meeting-room video {
+  margin: 1em auto;
+  height: auto;
+  width: 750px;
+}

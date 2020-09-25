@@ -1,0 +1,20 @@
+{
+  "name": "amazon-chime-express",
+  "version": "1.0.0",
+  "description": "Meeting application boilerplate with React and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm start --prefix client",
+    "client-install": "cd client && npm i",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "author": "Nicolas Ceresole",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.751.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  }
+}
